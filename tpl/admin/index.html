@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>OEM-ISV Bridge Tool</title>
+    <link rel="stylesheet" href="http://down.7po.com/static/down/style3.css">
+</head>
+<body>
+    <a style="color:#999;">Hi，{$user}欢迎来到OIBT！</a>
+    <ul>
+    {foreach $data as $value}
+        <li>
+            <h1>{$value.name}</h1><br>
+        </li>
+    {/foreach}
+    </ul>
+</body>
+</html>
